@@ -1,3 +1,10 @@
+# This script converts the Shape files from fin_kuntajako_1milj_maa.zip
+# into an R shape object and stores into an R Data file for 
+# further distribution.
+
+# Pick the original shape files from:
+# http://beta.datavaalit.fi/storage/louhos/fin_kuntajako_1milj_maa.zip
+
 library(sorvi)
 
 f <- "fin_kuntajako_1milj_maa.shp"
